@@ -1,0 +1,948 @@
+html {
+    box-sizing: border-box
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+img {
+    width: 100%
+}
+
+a {
+    text-decoration: none
+}
+.w__100{
+    width: 100%;
+}
+.w__90 {
+    width: 90%
+}
+
+.w__60 {
+    width: 60%
+}
+
+.w__24px {
+    width: 24px
+}
+
+.w__55px {
+    width: 55px
+}
+
+.w__250px {
+    width: 250px
+}
+
+w__600px {
+    width: 600px
+}
+
+@font-face {
+    font-family: futuraLight;
+    src: url(../fonts/Futura/FuturaPTLight.otf)
+}
+
+@font-face {
+    font-family: futuraBook;
+    src: url(../fonts/Futura/FuturaPTBook.otf)
+}
+
+@font-face {
+    font-family: futuraDemi;
+    src: url(../fonts/Futura/FuturaPTDemi.otf)
+}
+
+@font-face {
+    font-family: futuraMed;
+    src: url(../fonts/Futura/FuturaPTMedium.otf)
+}
+
+@font-face {
+    font-family: futuraBold;
+    src: url(../fonts/Futura/FuturaPTBold.otf)
+}
+
+ul>li {
+    font-size: 14px;
+    color: #fff
+}
+
+p {
+    color: #021d49;
+    font-size: 1.2rem;
+    font-family: futuraBook
+}
+
+.right-text {
+    text-align: right
+}
+
+.left-text {
+    text-align: left
+}
+
+.center-text {
+    text-align: center
+}
+
+.uppercase {
+    text-transform: uppercase
+}
+
+.futura-bold {
+    font-family: futuraBold
+}
+
+.futura-book {
+    font-family: futuraBook
+}
+.futura-demi{
+    font-family: futuraDemi;
+}
+.fs_16px {
+    font-size: 16px
+}
+
+.fs__4r {
+    font-size: 4rem
+}
+
+h1 {
+    color: #021d49;
+    font-family: futuraMed;
+    font-size: 3.2rem
+}
+
+h2 {
+    color: #021d49;
+    font-family: futuraDemi;
+    font-size: 2.5rem
+}
+
+h3 {
+    color: #021d49;
+    font-family: futuraBook;
+    font-size: 2rem
+}
+
+h4 {
+    color: #021d49;
+    font-family: futuraBook;
+    font-size: 1.5rem
+}
+
+h5 {
+    color: #021d49;
+    font-size: 1rem;
+    text-align: center;
+    font-family: futuraBook
+}
+
+.title-h2 {
+    padding-bottom: 2.5rem
+}
+
+.letter_spacing_2 {
+    letter-spacing: 2.7px
+}
+
+.directora {
+    height: 100%;
+    object-fit: cover
+}
+
+.list-fqs li {
+    font-family: futuraBook;
+    font-size: 1rem;
+    color: #021b45 !important
+}
+
+.p_box {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 16px;
+    letter-spacing: -.1px
+}
+.aviso-list li{
+    color: #002459 !important; 
+}
+
+@media (max-width:768px) {
+    h1 {
+        font-size: 2.5rem
+    }
+    h2 {
+        font-size: 2.2rem
+    }
+
+    h3 {
+        font-size: 2rem
+    }
+
+    h4 {
+        font-size: 1rem
+    }
+
+    h5 {
+        color: #021d49;
+        font-size: 12px;
+        text-align: center;
+        font-family: futuraBook
+    }
+}
+
+pr__20 {
+    padding-right: 20px
+}
+
+.pb__100 {
+    padding-bottom: 100px
+}
+
+.text-blue {
+    color: #021d49
+}
+
+.text-white {
+    color: #fff
+}
+
+.text-shadow-100 {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .7)
+}
+
+.bg-header {
+    background-color: #fff
+}
+
+.bg-main {
+    background-image: url(../img/bg/bg-info-habitta.jpg);
+    width: 100%;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center
+}
+.bg-gray-150{
+    background-color: #F4F4F4;
+}
+.bg-blue {
+    background-color: #081b44;
+}
+.bg-blue-100 {
+    background-color: #002459;
+}
+
+.bg-yellow-900 {
+    background-color: #f2ac5e
+}
+
+.bg-blue-900 {
+    background-color: #00a3ca
+}
+
+.bg-gray {
+    background-color: #f3f4f4 !important
+}
+
+.bg-pink {
+    background-color: #d65d72
+}
+
+.bg-gray-100 {
+    background-color: #96979833 !important
+}
+
+.bg-gray-50 {
+    background-color: #f4f4f4
+}
+
+.bg-item-pb {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    width: 416px;
+    height: 236px
+}
+
+.bg__transparent {
+    background-color: transparent
+}
+
+.bg-trasparent-item {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(243 244 244 / .6);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.bg-queretaro {
+    background-repeat: no-repeat;
+    background-image: url(../img/bg/bg-porttoblanco-queretaro.jpg)
+}
+
+.bg-sanluis {
+    background-image: url(../img/bg/bg-porttob-sanluispotosi.jpg)
+}
+
+.bg-tulum {
+    background-image: url(../img/bg/bg-porttoblanco-tulum.jpg)
+}
+
+.bg-sanmiguel {
+    background-image: url(../img/bg/bg-porttoblanco-san-migue-allende.jpg)
+}
+
+.bg-merida {
+    background-image: url(../img/bg/bg-porttoblanco-merida.jpg)
+}
+.bg-aguamarina {
+    background-color: #fcfeff;
+}
+.btn-blue {
+    border: 1px solid #021d49;
+    background-color: #021d49 !important;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    font-size: 1.5rem
+}
+
+.btn-blue:hover {
+    color: #fff !important
+}
+
+.btn-aeropuerto {
+    display: block;
+    margin: 6px;
+    background-color: #00c446
+}
+
+.n-item-text {
+    color: #021d49 !important;
+    font-family: futuraDemi;
+    font-size: 1.5rem;
+    border-right: .5px solid #cddae0;
+    padding: 0 1rem !important;
+    transition: all ease .3s
+}
+
+.n-item-text:hover {
+    color: #011638 !important;
+    font-family: futuraDemi;
+    font-size: 1.7rem;
+    border-right: .5px solid #cddae0;
+    padding: 0 1rem !important;
+    transition: all ease .3s
+}
+
+#contacto {
+    border: none
+}
+
+.n-text {
+    color: #021d49 !important;
+    font-family: futuraDemi;
+    font-size: 1rem;
+    font-weight: 400
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    align-items: end;
+    justify-content: space-around
+}
+
+.hero span {
+    font-family: futuraBold
+}
+
+.hero .hero-img #logo-habitta-hero {
+    width: 220px
+}
+
+.box-items-habitta {
+    display: flex;
+    justify-content: center
+}
+.header-video{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.video-hero
+{
+    width: 100%;
+}
+.video-texto{
+
+}
+.box-menu-item {
+    display: flex;
+    height: 5.5rem;
+    justify-content: center
+}
+
+.iconos-menu img {
+    width: 60px;
+    margin: 10px
+}
+
+.iconos-menu-title {
+    display: flex;
+    align-items: center
+}
+
+.section-m100 {
+    padding: 100px 0
+}
+
+.pb-container .pb-title h3 {
+    padding-top: 1.5rem
+}
+
+.logo-cimatario-item {
+    width: 222px
+}
+
+.proximos-lanzamientos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.prox_videos {
+    position: relative;
+    overflow: hidden;
+    height: 80vh
+}
+
+.header {
+    position: relative;
+    background-color: #000;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden
+}
+
+.video-header {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0
+}
+.banderin {
+    width: 350px;
+    position: relative;
+    left: -35px
+}
+
+.text-hero-m {
+    position: relative;
+    float: right;
+    top: 60px;
+    right: 100px
+}
+
+.text-hero-m .desde {
+    font-size: 40px
+}
+z
+.text-hero-m .precio {
+    font-size: 150px;
+    font-family: futuraBold
+}
+
+.text-hero-m .mensualidad {
+    letter-spacing: 1px;
+    font-size: 80px;
+    font-family: futuraBold
+}
+
+.footer-li {
+    padding-left: 5px;
+    list-style: none;
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.redes-sociales a {
+    padding-left: 15px
+}
+
+.redes-sociales a img {
+    width: 22px
+}
+
+.redes-sociales {
+    padding-bottom: 20px
+}
+
+.ccima-h4 {
+    font-size: 26px;
+    font-family: futuraBold
+}
+
+.amenidades-box {
+    position: relative
+}
+
+.amenidades-title {
+    position: absolute;
+    top: -40px;
+    color: #fff;
+    font-family: futuraBold;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: left;
+    width: 100%;
+    padding-left: 50px
+}
+
+#club-pb_ame,
+#plazana_ame {
+    top: -75px
+}
+
+#lotes-tipo {
+    width: 60%;
+    padding-bottom: 2rem
+}
+
+.hr-condo {
+    width: 144px;
+    height: 10px !important;
+    border-color: #00a3ca;
+    background-color: #00a3ca !important;
+    opacity: 1;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -44px;
+    top: 20px
+}
+
+.ame-ex-condo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    margin-right: 100px
+}
+
+.ame-ex-condo h3 {
+    font-family: futuraBold
+}
+
+.hr_ame {
+    width: 90%;
+    height: 10px !important;
+    border-color: #021b45;
+    background-color: #011638 !important;
+    opacity: 1
+}
+
+.hr_blue-900 {
+    background-color: #00a5ce;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    height: 10px !important;
+    border-color: #021b45;
+    opacity: 1
+}
+
+.hr_white {
+    width: 50%;
+    height: 10px !important;
+    border-color: #021b45;
+    background-color: #fff;
+    opacity: 1
+}
+.contacto-whatsapp {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    position: fixed;
+    right: 90px;
+    bottom: 0;
+    z-index: 4
+}
+.cont-whatsapp {
+    background-color: #4caf50;
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    border-radius: 50%;
+}
+
+.cont-whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.cont-whatsapp img {
+    width: 35px;
+    height: 35px
+}
+
+@media (max-width:768px) {
+    .cont-whatsapp {
+        width: 50px;
+        height: 50px
+    }
+
+    .cont-whatsapp img {
+        width: 30px;
+        height: 30px
+    }
+}
+
+.hidden {
+    overflow: hidden
+}
+
+.preloader-pb {
+    height: 100vh;
+    width: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.ubicacion-box {
+    position: absolute;
+    margin-top: 60px
+}
+
+.ubicacion-lista {
+    list-style: none
+}
+
+.aliado-sherpa {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center
+}
+
+#office-boder {
+    border-right: 2px solid #00a5ce
+}
+
+#office-principal {
+    padding-left: 40px
+}
+
+.social-media {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: column
+}
+
+.fqs {
+    font-family: futuraDemi;
+    font-weight: 300
+}
+
+.answer-border {
+    border-left: 5px solid #00a3ca;
+    padding-left: 10px
+}
+
+.plan-icon {
+    position: relative
+}
+
+.plan-icon img {
+    position: absolute;
+    top: -200px;
+    width: 100px;
+    left: 50px
+}
+
+@media (max-width:992px) {
+    #office-boder {
+        border-right: none;
+        border-bottom: 2px solid #00a5ce;
+        margin-bottom: 30px
+    }
+
+    #office-principal {
+        padding-left: 12px
+    }
+
+    .ubicacion-box {
+        position: unset
+    }
+
+    .mapa-qro {
+        padding: 50px 0
+    }
+
+    .prox_videos {
+        position: relative;
+        overflow: hidden;
+        height: unset
+    }
+}
+@media (max-width:1200px) {
+    .banderin {
+        width: 200px;
+        left: 0
+    }
+    .text-hero-m {
+        position: relative;
+        float: right;
+        top: 50px;
+        right: 50px
+    }
+    .text-hero-m .desde {
+        font-size: 30px
+    }
+    
+    .text-hero-m .precio {
+        font-size: 90px;
+        font-family: futuraBold
+    }
+    
+    .text-hero-m .mensualidad {
+        letter-spacing: 1px;
+        font-size: 50px;
+        font-family: futuraBold
+    }
+    .n-item-text {
+        font-size: 1rem;
+    }
+
+}
+@media (max-width:768px) {
+    #bg-header {
+        background-image: url(../img/bg/portto-blanco-portada.jpg)
+    }
+    .n-item-text {
+        font-size: .7rem;
+    }
+    .banderin {
+        width: 100px;
+        left: 0
+    }
+    .text-hero-m {
+        position: relative;
+        float: right;
+        top: 50px;
+        right: 50px
+    }
+    .text-hero-m .desde,
+    .text-hero-m .mensualidad,
+    .text-hero-m .precio {
+        font-size: 2rem;
+        text-align: center
+    }
+    .ame-ex-condo {
+        padding-top: 1rem;
+        margin-right: 2rem;
+    }
+
+    .ubicacion-box {
+        position: unset
+    }
+
+    .ubicacion-lista {
+        padding-left: 0
+    }
+
+    .aliado-sherpa {
+        align-items: center
+    }
+
+    .aliado-sherpa h3 {
+        text-align: center
+    }
+
+    #office-boder {
+        border-right: none;
+        border-bottom: 2px solid #00a5ce;
+        margin-bottom: 30px
+    }
+
+    #office-principal {
+        padding-left: 12px
+    }
+
+    .social-media {
+        align-items: center;
+        padding-top: 30px
+    }
+
+    #face-icon {
+        padding-left: 0
+    }
+
+    .video-header {
+        display: none
+    }
+}
+@media (max-width:500px){
+    .text-hero-m {
+        position: relative;
+        float: right;
+        top: 20px;
+        right: 50px
+    }
+    .text-hero-m .desde,
+    .text-hero-m .mensualidad,
+    .text-hero-m .precio {
+        font-size: 1.5rem;
+        text-align: center
+    }
+}
+
+.img_clusters_cont {
+    position: relative
+}
+
+#img_opacity_selva {
+    opacity: 0
+}
+
+#img_opacity_bosque {
+    opacity: 0
+}
+
+.cluster_selva {
+    top: -460px;
+    width: 20%;
+    right: 90px
+}
+
+.cluster_bosque {
+    top: -400px;
+    width: 20%;
+    right: 10px
+}
+
+.img_clusters {
+    position: absolute;
+    transition: all ease-in .3s
+}
+
+#img_opacity_bosque:hover,
+#img_opacity_selva:hover {
+    opacity: 1;
+    transform: scale(4.5)
+}
+
+.office_title {
+    font-size: 16px;
+    font-weight: 700
+}
+
+.text-footer {
+    margin-bottom: 10px;
+    font-size: 12px
+}
+
+.master-cube {
+    background-color: transparent
+}
+
+.master-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.master-cube:hover {
+    background-color: #021b45b8
+}
+
+.master-text {
+    font-size: 1.2rem;
+    color: red;
+    background-color: #fff;
+    padding: 2px 5px
+}
+
+.st3{fill:#386794;}
+.st3:hover{fill:#38679400;}
+
+@media(max-width:768px) {
+    .master-cube {
+        width: 50px;
+        height: 70px;
+        position: absolute;
+        right: 55px;
+        top: -208px;
+        background-color: transparent
+    }
+
+    .master-text {
+        font-size: .5rem;
+        color: red;
+        background-color: #fff
+    }
+}
+
+.condo_master_item{
+    fill: #4076AD;
+}
+.condo_master_item:hover{
+    fill: #4076ae1f;
+    
+} 
+
+
+/* CUENTA REGRESIVA  */
+.regresiva{
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    font-family: futuraDemi;
+    padding-bottom: 20px;
+}
+.countdown-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.big-number{
+    color: #fff;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+@media (max-width:768px) {
+    .countdown-container{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }   
+    .big-number{
+        color: #fff;
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+}
